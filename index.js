@@ -2,7 +2,7 @@ const qrcode = require("qrcode-terminal");
 const moment = require("moment");
 const cheerio = require("cheerio");
 const imageToBase64 = require('image-to-base64');
-const get = require('got')
+const get = require('got');
 const fs = require("fs");
 const dl = require("./lib/downloadImage.js");
 const fetch = require('node-fetch');
@@ -11,11 +11,15 @@ const axios = require("axios");
 const menu = require("./lib/menu.js");
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
+const readTextInImage = require('./lib/ocr');
 /////////////////
 const BotName = 'Ahsan354'; 
 const instagram = 'https://instagram.com/muh_ahsan1999'; 
 const whatsapp = 'wa.me/6285157566434'; 
 const kapanbotaktif = '24 JAM'; 
+const bot1 = require("./lib/bot1.js");
+const bot2 = require("./lib/bot2.js");
+const bot3 = require("./lib/bot3.js")
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
 const
