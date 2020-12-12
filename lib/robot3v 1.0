@@ -1,4 +1,9 @@
-
+exports.menu = (id, BotName, corohelp, tampilTanggal, tampilWaktu, instagram, whatsapp, kapanbotaktif, grupch1, grupch2) => {
+	return `  *${BotName}* 
+  
+*${tampilTanggal}* 
+*${tampilWaktu}* 
+*Command*
 
 
 ║╭──❉ *STICKER MAKER & SIMI* ❉──
