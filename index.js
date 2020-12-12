@@ -22,6 +22,7 @@ const bot2 = require("./lib/bot2.js");
 const bot3 = require("./lib/bot3.js")
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
+const readTextInImage = require('./lib/ocr')
 const
 {
    WAConnection,
@@ -38,7 +39,6 @@ const
 var jam = moment().format("HH:mm");
 
 // OCR Library
-const readTextInImage = require('./lib/ocr')
 
 function foreach(arr, func)
 {
